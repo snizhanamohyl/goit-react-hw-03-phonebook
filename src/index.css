@@ -1,4 +1,11 @@
-@import-normalize; /* bring in normalize.css styles */
+:root {
+  --white: #ffffff;
+  --accent: #2196F3;
+  --accent-light: #a1d5ff;
+  --shadow-color: rgba(0, 0, 0, .1);
+  --grey: #cccccc;
+  --bg-color: #F5F4FA;
+}
 
 body {
   margin: 0;
@@ -12,4 +19,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul {
+  list-style: square;
 }
